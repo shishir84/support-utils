@@ -1,0 +1,10 @@
+{
+  "101": {
+    "UserID": "101",
+    "Metrics": {
+      "CoursesCompleted": 5,
+      "TotalHours": 12.5,
+      "AvgScore": 87.3
+    }
+  }
+}

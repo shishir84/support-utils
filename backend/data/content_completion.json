@@ -1,0 +1,12 @@
+{
+  "101": {
+    "UserID": "101",
+    "CompletedContents": ["Module 1", "Module 2"],
+    "CompletionRate": 80.0
+  },
+  "104": {
+    "UserID": "104",
+    "CompletedContents": ["Module X"],
+    "CompletionRate": 30.0
+  }
+}

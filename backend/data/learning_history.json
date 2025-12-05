@@ -1,0 +1,4 @@
+{
+  "101": { "UserID": "101", "LearningHistory": ["Course A", "Course B"] },
+  "102": { "UserID": "102", "LearningHistory": ["Course C"] }
+}
