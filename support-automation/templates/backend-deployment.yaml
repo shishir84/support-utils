@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: support-backend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: support-backend
+  template:
+    metadata:
+      labels:
+        app: support-backend
+    spec:
+      containers:
+        - name: backend
+          image: {{ .Values.backend.image }}
+          ports:
+            - containerPort: {{ .Values.backend.port }}
+          env:
+            - name: USE_DUMMY_DATA
+              value: "1"

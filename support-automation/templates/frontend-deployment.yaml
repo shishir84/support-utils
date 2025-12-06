@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: support-frontend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: support-frontend
+  template:
+    metadata:
+      labels:
+        app: support-frontend
+    spec:
+      containers:
+        - name: frontend
+          image: {{ .Values.frontend.image }}
+          ports:
+            - containerPort: {{ .Values.frontend.port }}
+          env:
+            - name: API_URL
+              value: "http://support-backend:8000"

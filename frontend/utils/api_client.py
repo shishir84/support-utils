@@ -1,7 +1,9 @@
 import requests
 from typing import Optional
+import os
 
-API_BASE = "http://localhost:8000"  # adjust if needed
+# Read from environment variable inside Kubernetes
+API_BASE = os.getenv("API_URL", "http://support-backend:8000")
 
 def login_api(username: str, password: str) -> Optional[str]:
     url = f"{API_BASE}/auth/login"
