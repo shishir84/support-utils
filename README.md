@@ -5,6 +5,12 @@
 ## 🚀 Overview
 Support Automation is a full-stack platform built using **Streamlit (UI)** and **FastAPI (Backend)**, supporting:
 
+<img width="736" height="571" alt="image" src="https://github.com/user-attachments/assets/4c685a78-4df7-4ebf-9599-7db5242fe343" />
+
+<img width="1871" height="715" alt="image" src="https://github.com/user-attachments/assets/74edbffc-66de-4562-a63d-0f6f164fc585" />
+
+
+
 - Learning History  
 - Learning Hours  
 - Login Issues  
